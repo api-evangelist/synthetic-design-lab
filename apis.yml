@@ -1,8 +1,24 @@
 aid: synthetic-design-lab
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synthetic-design-lab.png
 name: Synthetic Design Lab
-description: 'Synthetic Design Lab is a company surfaced as a portfolio company of playground-global and
-  added to the API Evangelist network as a stub for enrichment. Sector: engineered-biology. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Synthetic Design Lab is a clinical-stage biotechnology company founded in 2022 developing
+  next-generation antibody-drug conjugates (ADCs) for cancer therapy. Its SYNTHBODY platform and SYNTHBODY
+  Engine engineer multispecific biologics with layered BIO-LOGIC control mechanisms and targeted payload
+  delivery reported at 10x or more versus conventional ADCs. The company emerged from stealth in April 2025
+  with a $20M seed round led by Playground Global and Godfrey Capital, and is led by CEO Daniel S. Chen
+  (formerly Global Head of Cancer Immunotherapy Development at Genentech) and CSO Ramesh Baliga. This is a
+  therapeutics research company with no public API, SDK, or developer surface at the time of enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/synthetic-design-lab/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Engineered Biology
+- Biotechnology
+- Therapeutics
+- Oncology
+- Antibody-Drug Conjugates
+- Drug Discovery
+- Cancer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.syntheticdesignlab.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
